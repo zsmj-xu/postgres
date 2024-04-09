@@ -1,10 +1,10 @@
-module gorm.io/driver/postgres
+module github.com/zsmj-xu/driver/postgres
 
 go 1.18
 
 require (
 	github.com/jackc/pgx/v5 v5.5.5
-	gorm.io/gorm v1.25.8
+	github.com/zsmj-xu/gorm v1.26.3
 )
 
 require (
@@ -17,5 +17,3 @@ require (
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
-
-retract v1.5.5 // Published accidentally.

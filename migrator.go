@@ -3,14 +3,14 @@ package postgres
 import (
 	"database/sql"
 	"fmt"
+	"github.com/jackc/pgx/v5"
 	"regexp"
 	"strings"
 
-	"github.com/jackc/pgx/v5"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/zsmj-xu/gorm"
+	"github.com/zsmj-xu/gorm/clause"
+	"github.com/zsmj-xu/gorm/migrator"
+	"github.com/zsmj-xu/gorm/schema"
 )
 
 // See https://stackoverflow.com/questions/2204058/list-columns-with-indexes-in-postgresql
