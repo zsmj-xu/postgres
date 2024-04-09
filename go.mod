@@ -1,4 +1,4 @@
-module github.com/zsmj-xu/driver/postgres
+module github.com/zsmj-xu/postgres
 
 go 1.18
 
